@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height:100vh;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	background-color:rgb(167, 168, 173);
+	flex-direction:column;
+	
+}
+.circulos {
+    width: 100%;
+    justify-content: space-around;
+    padding:10px;
+	display:flex;
+	flex-wrap:wrap;
+
+}
+.circulo{
+    box-shadow: 5px 10px #88888871;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    background-color: brown;
+    border-radius: 50%;
+    display: block;
+   
+}
